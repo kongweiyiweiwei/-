@@ -1,0 +1,19 @@
+// 用于元素定位
+.my-pages{}
+.my-pages > ul{
+	list-style: none;
+}
+.my-pages > ul > li{
+	float: left;
+	padding: 6px;
+	background-color: #ccc;
+	border: 1px solid black;
+	margin-left: 6px;
+	cursor: pointer;
+}
+.my-pages > ul > li:hover{
+	background-color: #888;
+}
+.my-pages > ul > .action{
+	background-color: #888;
+}
